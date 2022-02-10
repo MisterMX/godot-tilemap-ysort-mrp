@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://croupwhc17spi"]
+
+[ext_resource type="TileSet" uid="uid://brw5idbap2j15" path="res://tileset.tres" id="1_7krpq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( "1_7krpq" )
+format = 2
+layer_0/tile_data = PackedInt32Array(393212, 1, 4, -393219, 1, 4, -327683, 1, 4, 327677, 1, 4, 393213, 1, 4, -327682, 1, 4, -524289, 1, 4, -65537, 1, 4, -1, 1, 4, 65535, 1, 4, 393215, 1, 4, -524288, 1, 4, -131072, 1, 4, 0, 1, 4, 393216, 1, 4, -458750, 1, 4, 196610, 1, 4, 262146, 1, 4, -524285, 1, 4, -458749, 1, 4, 262147, 1, 4)
